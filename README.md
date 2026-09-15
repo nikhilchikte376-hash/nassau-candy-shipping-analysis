@@ -1,8 +1,8 @@
-# 🚚 Factory-to-Customer Shipping Route Efficiency Analysis
+﻿# ðŸšš Factory-to-Customer Shipping Route Efficiency Analysis
 
 ## Nassau Candy Distributor
 
-### 📌 Project Overview
+### ðŸ“Œ Project Overview
 
 This project analyzes factory-to-customer shipping operations for Nassau Candy Distributor to evaluate shipment activity, regional performance, shipping modes, sales trends, route performance, and calculated shipping lead times.
 
@@ -12,7 +12,7 @@ An interactive Streamlit dashboard allows users to dynamically explore the data 
 
 ---
 
-## 🎯 Project Objectives
+## ðŸŽ¯ Project Objectives
 
 The main objectives of this project are to:
 
@@ -28,7 +28,7 @@ The main objectives of this project are to:
 
 ---
 
-## 📊 Dataset
+## ðŸ“Š Dataset
 
 The final dataset contains **10,194 shipment records** with order, customer, product, sales, profitability, and shipping information.
 
@@ -57,20 +57,20 @@ The dashboard covers records from approximately **January 2024 through December 
 
 ---
 
-## 🔧 Tools & Technologies
+## ðŸ”§ Tools & Technologies
 
-- **Python** — Core analysis and application development
-- **Pandas** — Data cleaning, transformation, aggregation, and analysis
-- **NumPy** — Numerical operations
-- **Matplotlib** — Data visualization
-- **Jupyter Notebook** — Exploratory data analysis
-- **Streamlit** — Interactive dashboard development
-- **Git & GitHub** — Version control and project hosting
-- **Streamlit Community Cloud** — Live dashboard deployment
+- **Python** â€” Core analysis and application development
+- **Pandas** â€” Data cleaning, transformation, aggregation, and analysis
+- **NumPy** â€” Numerical operations
+- **Matplotlib** â€” Data visualization
+- **Jupyter Notebook** â€” Exploratory data analysis
+- **Streamlit** â€” Interactive dashboard development
+- **Git & GitHub** â€” Version control and project hosting
+- **Streamlit Community Cloud** â€” Live dashboard deployment
 
 ---
 
-## 🔍 Methodology
+## ðŸ” Methodology
 
 ### 1. Data Cleaning & Validation
 
@@ -87,7 +87,7 @@ The dataset was reviewed for:
 
 Shipping lead time was calculated using:
 
-**Shipping Lead Time = Ship Date − Order Date**
+**Shipping Lead Time = Ship Date âˆ’ Order Date**
 
 Additional route-level features were created to support factory-to-customer analysis.
 
@@ -143,7 +143,7 @@ Peak periods are visually highlighted to improve interpretation.
 
 ---
 
-## 📈 Key KPIs
+## ðŸ“ˆ Key KPIs
 
 | KPI | Overall Result |
 |---|---:|
@@ -155,7 +155,7 @@ Peak periods are visually highlighted to improve interpretation.
 
 ---
 
-## 🌎 Regional Performance
+## ðŸŒŽ Regional Performance
 
 | Rank | Region | Shipments | Shipment Share |
 |---:|---|---:|---:|
@@ -168,7 +168,7 @@ The **Pacific region ranks first**, contributing approximately **31.9% of total 
 
 ---
 
-## 🚚 Shipping Mode Performance
+## ðŸšš Shipping Mode Performance
 
 | Shipping Mode | Shipments |
 |---|---:|
@@ -181,54 +181,54 @@ The **Pacific region ranks first**, contributing approximately **31.9% of total 
 
 ---
 
-## 🛣️ Top Factory-to-Customer Routes
+## ðŸ›£ï¸ Top Factory-to-Customer Routes
 
 The route analysis identifies the highest-volume shipping routes.
 
 The leading routes include:
 
-1. Chocolate → California — **1,948 shipments**
-2. Chocolate → New York — **1,081 shipments**
-3. Chocolate → Texas — **957 shipments**
-4. Chocolate → Pennsylvania — **558 shipments**
-5. Chocolate → Washington — **490 shipments**
+1. Chocolate â†’ California â€” **1,948 shipments**
+2. Chocolate â†’ New York â€” **1,081 shipments**
+3. Chocolate â†’ Texas â€” **957 shipments**
+4. Chocolate â†’ Pennsylvania â€” **558 shipments**
+5. Chocolate â†’ Washington â€” **490 shipments**
 
-The **Chocolate → California** route is the largest route in the dataset, representing approximately **19.1% of total shipments**.
+The **Chocolate â†’ California** route is the largest route in the dataset, representing approximately **19.1% of total shipments**.
 
 ---
 
-## 🖥️ Interactive Streamlit Dashboard
+## ðŸ–¥ï¸ Interactive Streamlit Dashboard
 
 The project includes a fully interactive Streamlit dashboard designed to support exploratory logistics analysis.
 
 ### Dashboard Features
 
-- 📊 Dynamic KPI cards
-- 🔎 Region filtering
-- 🚚 Shipping mode filtering
-- 📅 Date-range filtering
-- 🔄 Reset Filters button
-- 📋 Filtered record count and percentage
-- 📈 Monthly sales trend
-- 📦 Monthly shipment trend
-- 🌎 Regional performance ranking
-- 📊 Regional shipment-share analysis
-- 🚚 Shipping-mode comparison
-- 🛣️ Top 10 factory-to-customer routes
-- 📊 Route contribution percentages
-- 💡 Dynamic business insights
-- ⚠️ Data-quality warning
-- 📋 Dataset information
+- ðŸ“Š Dynamic KPI cards
+- ðŸ”Ž Region filtering
+- ðŸšš Shipping mode filtering
+- ðŸ“… Date-range filtering
+- ðŸ”„ Reset Filters button
+- ðŸ“‹ Filtered record count and percentage
+- ðŸ“ˆ Monthly sales trend
+- ðŸ“¦ Monthly shipment trend
+- ðŸŒŽ Regional performance ranking
+- ðŸ“Š Regional shipment-share analysis
+- ðŸšš Shipping-mode comparison
+- ðŸ›£ï¸ Top 10 factory-to-customer routes
+- ðŸ“Š Route contribution percentages
+- ðŸ’¡ Dynamic business insights
+- âš ï¸ Data-quality warning
+- ðŸ“‹ Dataset information
 
 All major KPIs, charts, tables, routes, and insights respond dynamically to the selected filters.
 
-### 🔴 Live Dashboard
+### ðŸ”´ Live Dashboard
 
 **[Open Live Streamlit Dashboard](https://sjtvna4mhw2rbvmlnz9sdj.streamlit.app/)**
 
 ---
 
-## 💡 Key Business Insights
+## ðŸ’¡ Key Business Insights
 
 The completed analysis shows that:
 
@@ -237,13 +237,13 @@ The completed analysis shows that:
 - Pacific generates approximately **$46,301.53 in sales**, the highest among the four regions.
 - **Standard Class** is the most frequently used shipping mode with **6,120 shipments**.
 - **Same Day** has the lowest shipment volume with **547 shipments**.
-- **Chocolate → California** is the highest-volume factory-to-customer route with **1,948 shipments**.
+- **Chocolate â†’ California** is the highest-volume factory-to-customer route with **1,948 shipments**.
 - Monthly trend analysis makes it possible to identify changes and peak periods in sales and shipment activity.
 - Regional rankings and shipment-share percentages provide clearer comparisons between geographic markets.
 
 ---
 
-## ⚠️ Data Quality & Interpretation Note
+## âš ï¸ Data Quality & Interpretation Note
 
 The calculated shipping lead times are unusually high compared with typical operational shipping timelines.
 
@@ -257,7 +257,7 @@ The project primarily uses these values for **analytical comparison and pattern 
 
 ---
 
-## 💼 Business Value
+## ðŸ’¼ Business Value
 
 This analysis can help logistics and supply-chain teams:
 
@@ -272,7 +272,7 @@ This analysis can help logistics and supply-chain teams:
 
 ---
 
-## 🚀 Future Scope
+## ðŸš€ Future Scope
 
 Potential future improvements include:
 
@@ -288,23 +288,23 @@ Potential future improvements include:
 
 ---
 
-## 📁 Project Structure
+## ðŸ“ Project Structure
 
 ```text
 nassau-candy-shipping-analysis/
-│
-├── app.py
-├── analysis.ipynb
-├── nassau_orders_final.csv
-├── Nassau_Candy_Shipping_Route_Efficiency_Report.pdf
-├── requirements.txt
-├── README.md
-└── .gitignore
+â”‚
+â”œâ”€â”€ app.py
+â”œâ”€â”€ analysis.ipynb
+â”œâ”€â”€ nassau_orders_final.csv
+â”œâ”€â”€ Nassau_Candy_Shipping_Route_Efficiency_Report_Final.pdf
+â”œâ”€â”€ requirements.txt
+â”œâ”€â”€ README.md
+â””â”€â”€ .gitignore
 ```
 
 ---
 
-## 📌 Dashboard Improvement
+## ðŸ“Œ Dashboard Improvement
 
 The dashboard was enhanced following evaluator feedback to improve both usability and visual storytelling.
 
@@ -324,16 +324,17 @@ These improvements make the dashboard more interactive, interpretable, and suita
 
 ---
 
-## 👤 Author
+## ðŸ‘¤ Author
 
 **Nikhil Chikte**  
-B.Tech — Computer Science & Engineering  
+B.Tech â€” Computer Science & Engineering  
 Aspiring Data Analyst
 
 ### Skills Demonstrated
 
-`Python` • `Pandas` • `Data Analysis` • `Data Visualization` • `Streamlit` • `Git` • `GitHub` • `Business Analytics`
+`Python` â€¢ `Pandas` â€¢ `Data Analysis` â€¢ `Data Visualization` â€¢ `Streamlit` â€¢ `Git` â€¢ `GitHub` â€¢ `Business Analytics`
 
 ---
 
-⭐ If you find this project useful, consider giving the repository a star.
+â­ If you find this project useful, consider giving the repository a star.
+
